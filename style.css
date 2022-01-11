@@ -1,0 +1,42 @@
+html{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.btn{
+  margin: 25px;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: lightseagreen;
+  outline: none;
+}
+
+.btn:hover{
+  transform: scale(2.0);
+  border-color: lightcoral;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}
+
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+#github-logo{
+  width:20px;
+  height: 20px;
+  margin-bottom: -2px
+}
