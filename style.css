@@ -14,14 +14,15 @@ body{
   margin: 25px;
   height: 200px;
   width: 200px;
-  border-radius: 25px;
-  background-color: lightseagreen;
+  border-radius: 20px;
+  background-color: rgb(32, 178, 122);
   outline: none;
 }
 
 .button:hover{
   transform: scale(1.1);
-  border-color: lightcoral;
+  border-radius: 25px;
+  border-color: rgb(228, 118, 28);
 }
 
 img{
@@ -40,4 +41,28 @@ footer{
   width:20px;
   height: 20px;
   margin-bottom: -2px
+}
+
+#banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+#playerScore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+#computerScore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
 }
