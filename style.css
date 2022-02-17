@@ -1,5 +1,10 @@
-html{
-  font-family: Calibri
+html {
+  font-size:16px;
+  font-family: calibri;
+  background: url('./background.png');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center; 
 }
 
 body{
@@ -12,23 +17,24 @@ body{
 
 .button{
   margin: 25px;
-  height: 65px;
-  width: 65px;
-  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
   background-color: rgb(32, 178, 122);
   outline: none;
 }
 
 .button:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
   border-radius: 25px;
+  border-width: 5px;
   border-color: rgb(228, 118, 28);
 }
 
 img{
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
 }
 
 footer{
@@ -49,6 +55,8 @@ footer{
   align-items: center;
   flex-direction: column;
   margin-top: 25px;
+  font-size: 30px;
+  background-color: white;
 }
 
 #playerScore{
@@ -57,6 +65,8 @@ footer{
   align-items: center;
   flex-direction: column;
   margin-top: 25px;
+  font-size: 20px;
+  background-color: white;
 }
 
 #computerScore{
@@ -65,4 +75,7 @@ footer{
   align-items: center;
   flex-direction: column;
   margin-top: 25px;
+  font-size: 20px;
+  background-color: white;
 }
+

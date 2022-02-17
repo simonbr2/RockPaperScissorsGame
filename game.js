@@ -49,13 +49,13 @@ function playRound(playerSelection, computerSelection){
 }
 }
 
-buttons.forEach((button)=>{button.addEventListener('click',()=>{
+buttons.forEach((button)=>{
+  button.addEventListener('click',()=> {
 
   playerSelection = button.id;
   computerSelection = computerPlay();
   game();
   })
-
 })
 
 const player = document.querySelector("#playerScore");
